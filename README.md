@@ -5,6 +5,40 @@ This is my python learning project.
 
 * stock - Crawing stock's info from Yahoo.
 
-## Plugins & Frameworks
+## Packages
 * BeautifulSoup
 * requsets
+
+---
+
+## Preinstall
+* XCode
+* [Homebrew](https://brew.sh/index_zh-tw)
+
+## Intall Python3
+
+Installing python with Homebrew.
+
+> Python Path: /usr/local/Celler/python/{version}
+```sh
+$ brew install python3
+```
+
+## Using pip
+
+### Install pip3
+
+```sh
+$ python3 get-pip.py --user
+```
+
+### Install packages
+
+```sh
+$ pip3 install {package}
+```
+
+## Running
+```sh
+$ python3 dcard.py
+```
